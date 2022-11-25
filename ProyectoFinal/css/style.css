@@ -1,0 +1,233 @@
+
+body {
+background: #fff;
+color: #666666;
+font-family: "Open Sans", sans-serif;
+margin: 0px;
+}
+
+a {
+color: #03C4EB;
+transition: 0.5s;
+}
+
+a:hover, a:active, a:focus {
+color: #03c5ec;
+outline: none;
+text-decoration: none;
+}
+
+p {
+padding: 0;
+margin: 0 0 30px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Raleway", sans-serif;
+font-weight: 400;
+margin: 0 0 20px 0;
+padding: 0;
+}
+
+
+/* Back to top button no se aun jeje*/
+.back-to-top {
+position: fixed;
+display: none;
+background: rgba(0, 0, 0, 0.2);
+color: #fff;
+padding: 6px 12px 9px 12px;
+font-size: 16px;
+border-radius: 2px;
+right: 15px;
+bottom: 15px;
+transition: background 0.5s;
+}
+
+/*--------------------------------------------------------------
+# Welcome
+--------------------------------------------------------------*/
+#hero {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/back.jpg)  center fixed;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+
+#hero .hero-logo {
+    background-color: rgba(229, 221, 221, 0.984);
+    border-radius: 530px;
+    width: 560px;
+    height: 560px;
+    position: relative; 
+    margin: auto;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#hero .hero-logo img {
+    max-width: 100%;
+}
+
+#hero .hero-container {
+    background: rgba(49, 48, 48, 0.258);
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 438px) and (max-width: 768px){
+    #hero .hero-logo {
+        width: 400px;
+        height: 400px;
+    }
+ 
+    #hero .hero-logo img {
+        max-width: 90%;
+        border-radius: 60px;       
+        position: relative; 
+        margin: auto;
+    }
+
+    .usuario1{
+        font-size: 15px;
+        margin-top: -8px;
+        font-weight: 1000;
+    }  
+}
+
+@media screen and (min-width: 328px) and (max-width: 438px){
+    #hero .hero-logo {
+        width: 300px;
+        height: 300px;
+    }
+ 
+    #hero .hero-logo img {
+        max-width: 90%;
+        border-radius: 60px;        
+        position: relative; 
+        margin: auto;
+    }
+
+    .usuario1{
+        font-size: 11px;
+        margin-top: -5px;
+        font-weight: 1000;
+    }  
+  
+}
+
+@media screen and (max-width: 328px){
+    #hero .hero-logo {
+        width: 200px;
+        height: 200px;
+    }
+ 
+    #hero .hero-logo img {
+        max-width: 90%;
+        border-radius: 60px;        
+        position: relative; 
+        margin: auto;
+    }
+
+    .usuario1{
+        font-size: 6px;
+        margin-top: -5px;
+        font-weight: 1000;
+    }  
+    
+}
+
+#hero h2 {
+color: #999;
+margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+#hero h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+#hero h2 .rotating {
+    display: block;
+}
+}
+
+#hero .actions {
+   
+}
+
+#hero .actions a {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 7px;
+    transition: 0.5s;
+    margin-top: 680px;
+    
+    }
+
+#hero .btn-get-started {
+    border: 2px solid #fff;
+    color: #fff;
+    
+}
+
+#hero .btn-get-started:hover {
+    background: #6f6f6f;
+    border: 2px solid #6f6f6f;
+
+}
+
+#hero .btn-services {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+#hero .btn-services:hover {
+    background: #6f6f6f;
+    border: 2px solid #6f6f6f;
+}
+
+@media screen and (min-width: 438px) and (max-width: 768px){
+    #hero .actions a {
+        font-size: 15px;
+        padding: 7px 15px;
+        border-radius: 2px;
+        margin: 4px;
+        margin-top: 680px;
+    }
+
+}
+
+@media screen and (min-width: 328px) and (max-width: 438px){
+    #hero .actions a {
+        font-size: 10px;
+        padding: 5px 12px;
+        border-radius: 2px;
+        margin: 1px;
+        margin-top: 680px;
+    }
+   
+}
+
+@media screen and (max-width: 328px){
+    #hero .actions a {
+        font-size: 10px;
+        padding: 3px 5px;
+        border-radius: 2px;
+        margin: 0px;
+        margin-top: 680px;
+    }
+   
+}
+
